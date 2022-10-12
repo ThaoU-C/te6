@@ -1,2 +1,11 @@
-for (let text = "#"; text.length < 8; text += "#")
-  console.log(text);
+const maketri = function (){
+var tri = '#';
+
+for (var tri = "#";
+    tri.length < 8;
+    tri += "#")
+
+  console.log(tri);
+
+}
+maketri();
